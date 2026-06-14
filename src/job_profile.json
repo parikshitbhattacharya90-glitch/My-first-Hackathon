@@ -1,0 +1,146 @@
+{
+  "job_profile_meta": {
+    "company_name": "ExampleTech Pvt Ltd",
+    "role_title": "Backend / Systems Engineer",
+    "version": "1.0",                                          
+    "last_updated": "2026-06-13"
+  },
+
+
+  "role_identity": {
+    "mission": "Design, build, and own backend systems that are reliable under scale and ambiguity.",
+    "problem_nature": [
+      "Unclear requirements",
+      "Evolving system constraints",
+      "Trade-offs between speed, reliability, and scalability"
+    ],
+    "thinking_style": {
+      "preferred": [
+        "first-principles reasoning",
+        "systems thinking",
+        "failure-oriented design"
+      ],
+      "avoided": [
+        "rote implementation",
+        "copy-paste driven development"
+      ]
+    },
+    "ownership_expectation": "End-to-end responsibility from design to production to debugging"
+  },
+
+
+  "hard_constraints": {
+      "eligibility": {
+         "minimum_experience_years": 1,
+         "allowed_locations": ["India"],
+         "work_authorization_required": true
+       },
+      "mandatory_requirements": {
+         "education": "No strict degree requirement",
+         "certifications": [],
+         "language_proficiency": "English"
+       }
+  },
+
+
+  "capability_signals": [
+    {
+      "signal_name": "System Design Depth",
+      "importance": "very_high",
+      "description": "Ability to design systems considering scale, failure modes, and trade-offs.",
+      "acceptable_evidence": [
+        "project descriptions",
+        "architectural explanations",
+        "design-related interview answers"
+      ]
+    },
+    {
+      "signal_name": "Problem Decomposition",
+      "importance": "high",
+      "description": "Ability to break vague problems into solvable components.",
+      "acceptable_evidence": [
+        "resume narratives",
+        "scenario-based answers",
+        "debugging explanations"
+      ]
+    },
+    {
+      "signal_name": "Learning Velocity",
+      "importance": "high",
+      "description": "Speed and effectiveness with which the candidate learns unfamiliar tools or concepts.",
+      "acceptable_evidence": [
+        "career transitions",
+        "self-initiated projects",
+        "learning explanations"
+      ]
+    },
+    {
+      "signal_name": "Execution Reliability",
+      "importance": "medium",
+      "description": "Ability to deliver working solutions consistently.",
+      "acceptable_evidence": [
+        "project completion history",
+        "production exposure",
+        "responsibility ownership"
+      ]
+    },
+    {
+      "signal_name": "Communication Clarity",
+      "importance": "medium",
+      "description": "Ability to explain technical decisions clearly and honestly.",
+      "acceptable_evidence": [
+        "written explanations",
+        "spoken answers",
+        "design justifications"
+      ]
+    }
+  ],
+  
+    "negative_signals": [
+    {
+      "signal_name": "Buzzword Reliance",
+      "severity": "medium",
+      "description": "Heavy use of trending terms without demonstrating understanding."
+    },
+    {
+      "signal_name": "Tool Fixation",
+      "severity": "medium",
+      "description": "Overemphasis on specific frameworks without understanding fundamentals."
+    },
+    {
+      "signal_name": "Inconsistent Narrative",
+      "severity": "low",
+      "description": "Career path that lacks explanation or coherence."
+    },
+    {
+      "signal_name": "Shallow Project Descriptions",
+      "severity": "high",
+      "description": "Projects listed without clarity on personal contribution or impact."
+    }
+  ],
+
+
+    "evaluation_strategy": {
+    "questioning_policy": {
+      "must_probe": [
+        "system_design_depth",
+        "problem_decomposition"
+      ],
+      "optional_probe": [
+        "learning_velocity",
+        "communication_clarity"
+      ]
+    },
+        "probing_rules": {
+      "low_confidence_trigger": "Ask deeper follow-up questions",
+      "medium_confidence_trigger": "Ask scenario-based questions",
+      "high_confidence_trigger": "Minimal probing, validate consistency"
+    },
+
+        "confidence_thresholds": {
+      "reject_below": 0.35,
+      "review_range": [0.35, 0.65],
+      "strong_fit_above": 0.65
+    }
+  }
+}
